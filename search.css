@@ -1,0 +1,60 @@
+:root {
+  --main-color: salmon;
+}
+* {
+  box-sizing: border-box;
+}
+
+#result {
+  width: 80%;
+  height: auto;
+  padding: 15px;
+}
+.btn-style {
+  color: white;
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  border: 1px solid var(--main-color);
+  transition: 0.2s ease-in-out all;
+  outline: none;
+}
+.btn-style:hover {
+  color: var(--main-color);
+  background-color: white;
+  border: 1px solid var(--main-color);
+}
+.selectSkill {
+  /* width: 100px; */
+  padding: 10px 25px;
+  outline: none;
+  border: 1px solid var(--main-color);
+  border-radius: 3px;
+  color: var(--main-color);
+}
+::placeholder {
+  color: var(--main-color);
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: var(--main-color);
+  color: white;
+}
+
+th,
+td {
+  padding: 5px 15px;
+  text-align: center;
+  width: 30%;
+}

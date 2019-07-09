@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="search.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input id="name" class="selectSkill" type="text" placeholder="Name" />
+    <select id="dropdown" class="selectSkill" name="skill">
+      <option value="HTML">HTML</option>
+      <option value="CSS">CSS</option>
+      <option value="JS">JS</option>
+    </select>
+    <br />
+    <br />
+    <input id="add-task-btn" class="btn-style" type="submit" value="Save" />
+    <br />
+    <br />
+    <section id="info">
+      <table id="table">
+        <th>Name</th>
+        <th>Skill</th>
+      </table>
+    </section>
+    <br />
+    <br />
+    <h2>Search By Skill</h2>
+    <section id="search">
+      <select id="dropdown" class="selectSkill" name="skill">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JS">JS</option>
+      </select>
+      <div id="result"></div>
+    </section>
+    <script src="search.js"></script>
+  </body>
+</html>
